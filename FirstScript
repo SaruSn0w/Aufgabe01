@@ -5,3 +5,4 @@ clear
 echo So, $vorname $nachname also... Eingeloggt bist du als $USER
 echo `date +%A,%d-%m-%Y//%H:%M:%S`
 echo Der Names des Scriptes ist $"$( basename $0 )" und sein Pfad ist "$PWD"
+echo "Copyright Georg"
