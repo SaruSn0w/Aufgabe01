@@ -1,7 +1,7 @@
 read -p "Hallo, Wie heißt du? " vorname
 echo Hallo $vorname und wie geht dein Nachname?
 read nachname
+clear
 echo So, $vorname $nachname also... Eingeloggt bist du als $USER
 echo `date +%A,%d-%m-%Y//%H:%M:%S`
 echo Der Names des Scriptes ist $"$( basename $0 )" und sein Pfad ist "$PWD"
-
